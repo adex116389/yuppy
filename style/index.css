@@ -1,0 +1,237 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Sora', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #070E27;
+    margin: auto;
+    overflow-x: hidden;
+}
+#hero {
+    margin-top: 3rem;
+}
+.hero-content h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 5rem;
+}
+.hero-btn {
+    margin-top: 1.5rem;
+}
+.hero-btn button {
+    border: none;
+    background-color: #0059f7;
+    color: #fff;
+    border-radius: .5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 1rem 1.8rem;
+    font-size: 1rem;
+}
+#card-section {
+    margin-top: 5rem;
+}
+.heading-text {
+    margin-bottom: 1.5rem;
+}
+.heading-text h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.heading-text small {
+    color: #7E8BB6;
+    font-size: 1.2rem;
+}
+.service-card {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    border: .2px solid #122052;
+    width: 90%;
+    height: 14.5rem;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 3rem;
+    text-align: left !important;
+}
+.service-card:hover {
+    background-color: #0f1631;
+}
+.service-card img {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 1.3rem;
+}
+.service-card h1 {
+    font-size: 22.7813px;
+}
+.service-card small {
+    font-size: 16px;
+    width: 100%;
+    line-height: 35px;
+}
+#extras {
+    margin-top: 4rem;
+}
+.extras-content small {
+    font-weight: 600;
+    color: #a1a1a1;
+    font-size: 20.0981px;
+}
+.extras-content h1 {
+    color: #fff;
+    line-height: 1.6;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: .2rem !important;
+    /* padding: 0rem 5rem 0rem 5rem; */
+}
+.extras-content textarea {
+    border-radius: 5px;
+    color: #070E27;
+    font-weight: 600;
+    padding: .3rem 0rem 0rem .5rem;
+    margin-top: 1.5rem;
+}
+.extras-content textarea:focus,
+.extras-content textarea:active {
+    border: none !important;
+    outline: none;
+}
+.extras-content button {
+    margin-top: 1.7rem;
+    background-color: #689EFF;
+    border: none;
+    color: #fff;
+    font: 16px;
+    line-height: 1.5;
+    padding: 1rem 1.8rem;
+    border-radius: .5rem;
+}
+.extras-content button:hover {
+    background-color: #4a89ff;
+}
+footer {
+background-color: #162044;
+margin-top: 3rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+.footer-icons {
+    text-align: center;
+}
+.footer-icons a i {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-right: 1rem;
+}
+.footer-text h1 {
+    color: #fff;
+    margin-top: 1rem;
+    font-weight: 200;
+}
+.footer-text h1 a {
+    color: #fff;
+    font-size: 16px;
+}
+.modal-header {
+    border-bottom: none;
+    background-color: #070E27;
+    color: #fff !important;
+    width: 100.33%;
+    height: 2.9rem !important;
+    margin-left: -1px;
+    margin-top: -1px !important;
+}
+.modal_title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.modal-body {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: .1rem;
+}
+.modal-body i {
+    margin-top: .3rem !important;
+    margin-right: .5rem;
+}
+.modal-body input {
+    color: #070E27;
+    border: none;
+    width: 100% !important;
+    border-bottom: 1px solid #070E27;
+    text-align: left;
+    font-weight: 600;
+}
+.modal-body input:focus,
+.modal-body input:active {
+    /* border: none; */
+    outline: none;
+}
+.modal-footer {
+    padding-bottom: 1rem;
+    /* display: flex; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    overflow: hidden;
+    border-top: none !important;
+}
+.btn {
+    margin: 0;
+    padding: 0;
+}
+.btn_proceed {
+    width: 95% !important;
+    /* margin-left: 7.5rem; */
+    background-color: #070E27 !important;
+    color: #fff !important;
+    font-family: 'Sora', sans-serif;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 37.9601px;
+        line-height: 1.4;
+    }
+    #card-section {
+        margin-top: 7rem;
+    }
+    .heading-text h1 {
+        font-size: 2rem;
+    }
+    .service-card {
+        padding: 2rem 2rem 2rem 2rem;
+        width: 100%;
+    }
+    .error-1,
+    .error-2 {
+        padding: 2rem 2rem 14.8rem 2rem;
+    }
+    .extras-content h1 {
+        margin-top: 2rem !important;
+        margin-bottom: 1rem;
+        font-size: 1.6rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    .extras-content textarea {
+        margin-bottom: 1rem;
+    }
+    .heading-text {
+        margin-top: -3.5rem !important;
+    }
+    .btn_proceed {
+        padding: 10px 22px 10px 15px !important;
+    }
+}
